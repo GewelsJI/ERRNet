@@ -8,7 +8,7 @@ It consists of a selective edge aggregation (SEA) module and a reversible re-cal
 cooperating closely with NEGS priors (i.e., Neighbour prior, Global prior, Edge prior, and Semantic prior) at 
 low-/high-level layers. The SEA aggregation strategy is exploited to mine the edge prior and prevent the weakness edge
 vanishing problem, while the RRU is responsible for re-calibrating the coarse prediction. Our ERRNet reaches the 1st 
-place on three COD datasets, and also outperforms existing cutting-edge models on ve medical image segmentation
+place on three COD datasets, and also outperforms existing cutting-edge models on five medical image segmentation
 datasets. Further, we have provided comprehensive ablation studies, making ERRNet a general and robust architecture in the COD task.
 
 ## Results
