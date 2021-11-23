@@ -4,8 +4,6 @@ import torch.nn.functional as F
 from model.resnet import resnet50
 from model.aspp import ASPP
 
-# PraNet_234_edge_dense_aspp
-
 
 class BasicConv2d(nn.Module):
     def __init__(self, in_planes, out_planes, kernel_size, stride=1, padding=0, dilation=1):
