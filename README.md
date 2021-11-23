@@ -12,11 +12,11 @@ In this work, we propose a Edge-based Reversible Re-calibration Network (ERRNet)
 
 - Download the training & testing datsets: [Google Driver](https://drive.google.com/file/d/120wKRvwXpqqeEejw60lYsEyZ4SOicR3M/view?usp=sharing, https://drive.google.com/file/d/1bTIb2qo7WXfyLgCn43Pz0ZDQ4XceO9dE/view?usp=sharing).
 - Prerequisite: `torch==1.1.0` and `scipy==1.2.2`
-- Download the snapshot file from [Google Driver]() and put it on `./snapshot/ERRNet_Snapshot.pth`.
+- Download the snapshot file from [Google Driver](https://drive.google.com/file/d/1z0RFqIEqQegfWyTBKztbvrYo-vTGT7LL/view?usp=sharing) and put it on `./snapshot/ERRNet_Snapshot.pth`.
 - Inference: Just run `test.py` script to get the final predictions.
 
 # Prediction Results
 
 Our results reported in our PR journal can be downloaded in here: [Google Drive](https://drive.google.com/file/d/10i3g4XPBz76nMfU9wZEsKbvmeurSs1Qm/view?usp=sharing).
 
-Recently, we also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
+Recently, we also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
