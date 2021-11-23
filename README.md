@@ -1,10 +1,17 @@
 # <p align=center>`ERRNet [Pattern Recognition @2022]`</p>
 
-- **Title:** Fast Camouflaged Object Detection via Edge-based Reversible Re-calibration Network
+# Fast Camouflaged Object Detection via Edge-based Reversible Re-calibration Network
+
 - **Authors:** Ge-Peng Ji, Lei Zhu, Mingchen Zhuge, Keren Fu*
 - **Paper link:** [Elsevier Website](https://www.sciencedirect.com/science/article/pii/S0031320321005902) and [arXiv](https://arxiv.org/abs/2111.03216).
 
 > Our project is under construction. If you find some bugs, please let me konw or directly pull request in the github. Contact E-mail: gepengai.ji@gmail.com.
+
+# News & Updates
+
+- [2021/09/23] :fire: Please attention to our brandnew project SINetV2([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf)) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
+- [2021/09/21] We also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
+- [2021/09/15] Upload the inference code.
 
 # Introduction
 
@@ -33,9 +40,6 @@ Our results reported in our PR journal can be downloaded in here: [Google Drive]
     Figure 2: Visual comparison of camouflaged object detection maps produced by different methods. (a) Input images, (b) GT, which stands for the ground truths, (c) camouflaged object detection maps produced by our method, (d) SINet [1], (e) EGNet [24], (f) HTC [20], (g) CPD [23], and (h) PFANet [60].
     </em>
 </p>
-
-
-**UPDATED NOTE:** Recently, we also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
 
 
 # Citation
