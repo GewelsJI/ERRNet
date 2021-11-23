@@ -1,7 +1,6 @@
 # <p align=center>`ERRNet [Pattern Recognition @2022]`</p>
 
-# Fast Camouflaged Object Detection via Edge-based Reversible Re-calibration Network
-
+- **Title:** Fast Camouflaged Object Detection via Edge-based Reversible Re-calibration Network
 - **Authors:** Ge-Peng Ji, Lei Zhu, Mingchen Zhuge, Keren Fu*
 - **Paper link:** [Elsevier Website](https://www.sciencedirect.com/science/article/pii/S0031320321005902) and [arXiv](https://arxiv.org/abs/2111.03216).
 
@@ -9,7 +8,7 @@
 
 # News & Updates
 
-- [2021/09/23] :fire: Please attention to our brandnew project SINetV2([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf)) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
+- [2021/09/23] :fire: Please attention to our brandnew project SINetV2([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
 - [2021/09/21] We also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
 - [2021/09/15] Upload the inference code.
 
