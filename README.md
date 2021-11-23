@@ -4,17 +4,17 @@
 - **Authors:** Ge-Peng Ji, Lei Zhu, Mingchen Zhuge, Keren Fu*
 - **Paper link:** [Elsevier Website](https://www.sciencedirect.com/science/article/pii/S0031320321005902) and [arXiv](https://arxiv.org/abs/2111.03216).
 
-> Our project is under construction. If you find some bugs, please let me konw or directly pull request in the github. Contact E-mail: gepengai.ji@gmail.com.
+> Our project is under construction. If you find some bugs, please let me know or directly pull the request in the github. Contact E-mail: gepengai.ji@gmail.com.
 
 # News & Updates
 
 - [2021/09/23] :fire: Please attention to our brandnew project SINetV2([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
-- [2021/09/21] We also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly different from the original performance reported in the paper, which is due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test dataset (ie., CHAMELEON, CAMO, COD10K, NC4K).
+- [2021/09/21] We also retrain our method, which again obtains a new improvement compared with previous performance. Note that the retrained model performs slightly differently from the original performance reported in the paper due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test datasets (ie., CHAMELEON, CAMO, COD10K, NC4K).
 - [2021/09/15] Upload the inference code.
 
 # Introduction
 
-In this work, we propose a Edge-based Reversible Re-calibration Network (ERRNet) for camouflaged object detection. It consists of a selective edge aggregation (SEA) module and a reversible re-calibration unit (RRU), which are cooperating closely with NEGS priors (i.e., Neighbour prior, Global prior, Edge prior, and Semantic prior) at low-/high-level layers. The SEA aggregation strategy is exploited to mine the edge prior and prevent the weakness edge vanishing problem, while the RRU is responsible for re-calibrating the coarse prediction. Our ERRNet reaches the 1st place on three COD datasets, and also outperforms existing cutting-edge models on five medical image segmentation datasets. Further, we have provided comprehensive ablation studies, making ERRNet a general and robust architecture in the COD task.
+In this work, we propose an Edge-based Reversible Re-calibration Network (ERRNet) for camouflaged object detection. It consists of a selective edge aggregation (SEA) module and a reversible re-calibration unit (RRU), which are cooperating closely with NEGS priors (i.e., Neighbour prior, Global prior, Edge prior, and Semantic prior) at low-/high-level layers. The SEA aggregation strategy is exploited to mine the edge prior and prevent the weakness edge vanishing problem, while the RRU is responsible for re-calibrating the coarse prediction. Our ERRNet reaches 1st place on three COD datasets and outperforms existing cutting-edge models on five medical image segmentation datasets. Further, we have provided comprehensive ablation studies, making ERRNet a general and robust architecture in the COD task.
 
 <p align="center">
     <img src="./assets/framework.png"/> <br />
@@ -31,7 +31,7 @@ In this work, we propose a Edge-based Reversible Re-calibration Network (ERRNet)
 
 # Prediction Results
 
-Our results reported in our PR journal can be downloaded in here: [Google Drive](https://drive.google.com/file/d/10i3g4XPBz76nMfU9wZEsKbvmeurSs1Qm/view?usp=sharing).
+Our results reported in our PR journal can be downloaded here: [Google Drive](https://drive.google.com/file/d/10i3g4XPBz76nMfU9wZEsKbvmeurSs1Qm/view?usp=sharing).
 
 <p align="center">
     <img src="./assets/prediction_compare.png"/> <br />
@@ -50,10 +50,9 @@ If you find this project useful, please consider citing:
       journal = {Pattern Recognition},
       volume = {123},
       pages = {108414},
-      year = {2022},
-      issn = {0031-3203},
+      year = {2022}
     }
     
 # License
 
-The source code is free for research and education use only. Any comercial use should get formal permission first.
+The source code is free for research and education use only. Any commercial usage should get formal permission first.
