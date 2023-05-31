@@ -8,7 +8,7 @@
 
 # News & Updates
 
-- [2021/09/23] :fire: Please attention to our brandnew project SINetV2([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
+- [2023/05/31] :fire: We use the same training script as in our new project, SINetV2 ([arXiv]([arXiv](http://dpfan.net/wp-content/uploads/ConcealedOD_paper.pdf) & [Github Projecr](https://github.com/GewelsJI/SINet-V2)), which achieves the existing SOTA performance compared with other competitors.
 - [2021/09/21] We also retrain our method, which obtains a improvement compared with the previous performance. Note that the retrained model performs slightly differently from the original performance reported in the paper due to randomness in the training phase. The latest results can be found here: [Google Drive](https://drive.google.com/file/d/1GSS8nF5OoIpR0l17qwVfgXzujY9nNw1a/view?usp=sharing), which contains four test datasets (ie., CHAMELEON, CAMO, COD10K, and NC4K). The corresponding evaluation result are avaliable here: [Google Drive](https://drive.google.com/file/d/1BJ09I-djnx8v5ZkbTDDIbK4sG4W9PsDv/view?usp=sharing).
 - [2021/09/15] Upload the inference code.
 
